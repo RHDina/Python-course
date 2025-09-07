@@ -25,4 +25,13 @@ dependencies:
   - conda-forge::trackpy
   - conda-forge::tifffile
   - conda-forge::readlif
-  - conda-forge::aicsimageio
+  - conda-forge::napari
+  - pip
+  - pip:
+    - bioio
+    - bioio-nd2
+    - bioio-czi
+    - bioio-lif
+    - bioio-ome-tiff
+    - bioio-tifffile
+
